@@ -5,7 +5,7 @@ import Spinner from "./components/Spinner";
 import MovieCard from "./components/MovieCard";
 import { getTrendingMovies, updateSearchCount } from "./appwrite.js";
 
-const API_BASE_URL = "https://api.themoviedb.org/3";
+const API_BASE_URL = import.meta.env.VITE_TMDB_BASE_URL;
 
 const API_KEY = import.meta.env.VITE_TMDB_API_KEY;
 

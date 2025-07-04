@@ -10,9 +10,9 @@ const client = new Client()
 
 const database = new Databases(client);
 
-console.log(PROJECT_ID);
-console.log(DATABASE_ID);
-console.log(COLLECTION_ID);
+// console.log(PROJECT_ID);
+// console.log(DATABASE_ID);
+// console.log(COLLECTION_ID);
 
 export const updateSearchCount = async (searchTerm, movie) => {
   try {
